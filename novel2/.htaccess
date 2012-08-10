@@ -1,0 +1,5 @@
+RewriteEngine On
+
+RewriteBase /novel/
+
+RewriteRule ^(.*) /novel/$1 [L,R=301]
