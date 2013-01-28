@@ -1,5 +1,5 @@
 RewriteEngine On
 
-RewriteBase /novel/
+RewriteBase /novel2/
 
 RewriteRule ^(.*) /novel/$1 [L,R=301]
